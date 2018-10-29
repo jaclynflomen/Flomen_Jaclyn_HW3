@@ -32,5 +32,12 @@
         country.forEach(country => country.addEventListener("click", getData));
     
         getData(); //trigger the getData function
+    
+    
+        $('.SA_text').waypoint(function() {
+                $('.SA_text').addClass('animated fadeInRight');
+            }, { offset: '20%' });
+        
+    
     })();
     
