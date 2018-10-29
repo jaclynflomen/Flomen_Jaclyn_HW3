@@ -26,8 +26,8 @@ if (!$conn) {
 //}
 
 //get one item from database
-if (isset($_GET["region_name"])) {
-    $country = $_GET["region_name"];
+if (isset($_GET["region_nameNo"])) {
+    $country = $_GET["region_nameNo"];
 
     $myQuery = "SELECT * FROM tbl_education WHERE region_id='$country'";
 
