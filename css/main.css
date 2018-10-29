@@ -1,4 +1,8 @@
-.hidden {
-  display: none; }
+@charset "UTF-8";
+.hide {
+      visibility: hidden; }
+
+.visible {
+    visibility: visible !important; }
 
 /*# sourceMappingURL=main.css.map */

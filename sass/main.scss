@@ -1,6 +1,10 @@
 @import 'modules/_vars';
 @import 'modules/_body';
 
-.hidden {
-  display: none;
-}
+.hide {
+      visibility: hidden;
+  }
+  
+.visible {
+    visibility: visible !important;
+  }
