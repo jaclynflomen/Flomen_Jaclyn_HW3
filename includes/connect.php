@@ -11,7 +11,7 @@ if (!$conn) {
     exit;
 }
 
-//echo "connected!";
+echo "connected!";
 //comment ^ out once seeing that it works
 
 
@@ -26,10 +26,10 @@ if (!$conn) {
 //}
 
 //get one item from database
-if (isset($_GET["region_nameNo"])) {
-    $country = $_GET["region_nameNo"];
+if (isset($_GET["region_name"])) {
+    $country = $_GET["region_name"];
 
-    $myQuery = "SELECT * FROM tbl_education WHERE region_id='$country'";
+    $myQuery = "SELECT * FROM tbl_education WHERE region_name='$country'";
 
     $result = mysqli_query($conn, $myQuery);
     $rows = array ();
