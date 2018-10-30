@@ -10,15 +10,15 @@ const country = document.querySelectorAll('.data-ref');
             .then(data => {
                 console.log(data);
                 //run a function to parse our data
-                showCountrydata(data[0]);
+                showCountryData(data[0]);
             }) //lets see what we got
             .catch(function(error) {
                 console.log(error); //if anything broke, log it to the console
             });
         }
     
-        function showCountrydata(data) {
-            //debugger;
+        function showCountryData(data) {
+            debugger;
             //parse the DB info and put it where it needs to go
             const{ primary_ed, secondary_ed, YA_literacy, unemployment } = data; //destructuring assignment => MDN JS destructuring
     
@@ -32,6 +32,5 @@ const country = document.querySelectorAll('.data-ref');
         country.forEach(country => country.addEventListener("click", getData));
     
         getData(); //trigger the getData function
-    
     })();
     
