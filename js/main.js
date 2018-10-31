@@ -25,7 +25,7 @@
             //grab the elements we need, and populate them with data
             document.querySelector('.primary_ed').textContent = primary_ed
             document.querySelector('.secondary_ed').textContent = secondary_ed;
-            document.querySelector('.ya_lit').textContent = YA_literacy
+            document.querySelector('.YA_literacy').textContent = YA_literacy
             document.querySelector('.unemployment').textContent = unemployment
         }
     
