@@ -14,6 +14,7 @@ if (!$conn) {
 //echo "connected!";
 //comment ^ out once seeing that it works
 
+
 // go and get all data from the database
 // $myQuery = "SELECT * FROM tbl_education";     //commenting out to isolate query for one item below
 // $result = mysqli_query($conn, $myQuery);

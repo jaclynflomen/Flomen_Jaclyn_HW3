@@ -1,5 +1,5 @@
 window.onload = function(){
-  console.log("Hello world");
+  console.log("Hello friends");
 
   var waypoint = new Waypoint({
     element:document.getElementById("Layer_16"),

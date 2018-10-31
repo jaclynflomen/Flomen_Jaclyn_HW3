@@ -1,9 +1,9 @@
 (() => {
-const country = document.querySelectorAll('.data-ref');
+    const country = document.querySelectorAll('.data-ref');
     
-    function getData(){
+        function getData(){
     
-         let targetURL = `includes/connect.php?region_name=${this.id}`; //whenever we click on a thumbnail, pass its id to the php query
+            let targetURL = `includes/connect.php?region_name=${this.id}`; //whenever we click on a thumbnail, pass its id to the php query
     
             fetch (targetURL) // go get the data and bring it back! good doggy
             .then(res => res.json()) //turn the result into a plain JS object
@@ -18,13 +18,13 @@ const country = document.querySelectorAll('.data-ref');
         }
     
         function showCountryData(data) {
-            debugger;
+            //debugger;
             //parse the DB info and put it where it needs to go
             const{ primary_ed, secondary_ed, YA_literacy, unemployment } = data; //destructuring assignment => MDN JS destructuring
     
             //grab the elements we need, and populate them with data
             document.querySelector('.primary_ed').textContent = primary_ed
-            document.querySelector('.secondary_ed').textContent = secondary_ed
+            document.querySelector('.secondary_ed').textContent = secondary_ed;
             document.querySelector('.ya_lit').textContent = YA_literacy
             document.querySelector('.unemployment').textContent = unemployment
         }
