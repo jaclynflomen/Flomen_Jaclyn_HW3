@@ -10,7 +10,7 @@
             .then(data => {
                 console.log(data);
                 //run a function to parse our data
-                showCountryData(data);
+                showCountryData(data[0]);
             }) //lets see what we got
             .catch(function(error) {
                 console.log(error); //if anything broke, log it to the console
@@ -18,7 +18,7 @@
         }
     
         function showCountryData(data) {
-            debugger;
+            //debugger;
             //parse the DB info and put it where it needs to go
             const{ primary_ed, secondary_ed, YA_literacy, unemployment } = data; //destructuring assignment => MDN JS destructuring
     
