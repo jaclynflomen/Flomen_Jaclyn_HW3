@@ -8,3 +8,62 @@
 .visible {
     visibility: visible !important;
   }
+
+  body{
+    color: $font-color;
+    background-color: #2B2B2B;
+    border: 10px solid #C98727;
+  }
+
+  #title
+  {
+    margin-top: 40px;
+    margin-left: 27%;
+    margin-bottom: 50px;
+    width:40%;
+  }
+
+ .svg-countries object
+  {
+    width: 20%;
+    padding-right: 20px;
+  }
+
+  .svg-countries
+  {
+    display: inline;
+    top: 100px;
+  }
+
+  #firstRow
+  {
+    margin-bottom: 20px;
+    margin-left: 7%;
+  }
+
+  #secondRow
+  {
+    margin-left: 7%;
+    margin-bottom: 10px;
+  }
+
+  #nav
+  {
+    width:70%;
+    margin-left: 16%;
+    margin-top: 15%;
+  }
+
+  #stats p
+  {
+    display: inline;
+    font-size: 250%;
+    align-content: center;
+    padding-right: 15%;
+  }
+
+  #stats
+  {
+    margin-left: 17%;
+    margin-bottom: 10%;
+  }

@@ -10,7 +10,7 @@
             .then(data => {
                 console.log(data);
                 //run a function to parse our data
-                showCountryData(data[0]);
+                showCountryData(data);
             }) //lets see what we got
             .catch(function(error) {
                 console.log(error); //if anything broke, log it to the console
