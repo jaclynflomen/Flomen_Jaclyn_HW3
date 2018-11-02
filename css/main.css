@@ -8,13 +8,29 @@
 body {
   color: white;
   background-color: #2B2B2B;
-  border: 10px solid #C98727; }
+  border: 10px solid #C98727;
+  font-family: Helvetica, sans-serif;
+  box-shadow: 5px 5px 0px 9px #68471B inset; }
 
 #title {
   margin-top: 40px;
   margin-left: 27%;
   margin-bottom: 50px;
   width: 40%; }
+
+#book {
+  width: 15%;
+  float: left;
+  position: absolute;
+  left: 8%;
+  top: 20%; }
+
+#paper {
+  width: 10%;
+  float: right;
+  position: absolute;
+  right: 10%;
+  top: 17%; }
 
 .svg-countries object {
   width: 20%;
@@ -44,7 +60,19 @@ body {
   padding-right: 15%; }
 
 #stats {
-  margin-left: 17%;
+  margin-left: 20%;
   margin-bottom: 10%; }
+
+#instructions {
+  text-align: center;
+  font-size: 125%;
+  font-weight: lighter;
+  padding-right: 10%;
+  padding-left: 10%;
+  padding-bottom: 7%; }
+
+#eraser {
+  width: 35%;
+  margin-left: 50%; }
 
 /*# sourceMappingURL=main.css.map */
