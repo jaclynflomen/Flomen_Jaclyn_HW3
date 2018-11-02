@@ -2,11 +2,11 @@
 @import 'modules/_body';
 
 .hide {
-      visibility: hidden;
+   visibility: hidden;
   }
   
 .visible {
-    visibility: visible !important;
+    visibility: visible !important;
   }
 
   body{
@@ -57,12 +57,14 @@
   {
     margin-bottom: 20px;
     margin-left: 7%;
+    visibility: hidden;
   }
 
   #secondRow
   {
     margin-left: 7%;
     margin-bottom: 10px;
+    visibility: hidden;
   }
 
   #nav

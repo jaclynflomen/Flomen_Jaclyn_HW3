@@ -18,7 +18,7 @@
         }
     
         function showCountryData(data) {
-            //debugger;
+            debugger;
             //parse the DB info and put it where it needs to go
             const{ primary_ed, secondary_ed, YA_literacy, unemployment } = data; //destructuring assignment => MDN JS destructuring
     

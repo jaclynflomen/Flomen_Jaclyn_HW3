@@ -1,9 +1,8 @@
-@charset "UTF-8";
 .hide {
-      visibility: hidden; }
+  visibility: hidden; }
 
 .visible {
-    visibility: visible !important; }
+  visibility: visible !important; }
 
 body {
   color: white;
@@ -42,11 +41,13 @@ body {
 
 #firstRow {
   margin-bottom: 20px;
-  margin-left: 7%; }
+  margin-left: 7%;
+  visibility: hidden; }
 
 #secondRow {
   margin-left: 7%;
-  margin-bottom: 10px; }
+  margin-bottom: 10px;
+  visibility: hidden; }
 
 #nav {
   width: 70%;
