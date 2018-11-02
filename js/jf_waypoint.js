@@ -10,7 +10,7 @@ window.onload = function(){
     }
   })
 
-  var waypoint2 = new Waypoint({
+  var waypoint = new Waypoint({
     element:document.getElementById("firstRow"),
     handler:function(direction){
         this.element.classList.add("zoomIn");
@@ -20,7 +20,7 @@ window.onload = function(){
     offset: 400
   })
 
-  var waypoint2 = new Waypoint({
+  var waypoint = new Waypoint({
     element:document.getElementById("secondRow"),
     handler:function(direction){
         this.element.classList.add("zoomIn");
@@ -28,6 +28,16 @@ window.onload = function(){
         this.element.classList.add("visible");
     },
     offset: 450
+  })
+
+  var waypoint = new Waypoint({
+    element:document.getElementById("unicef"),
+    handler:function(direction){
+        this.element.classList.add("flipInX");
+        this.element.classList.add("animated");
+        this.element.classList.add("visible");
+    },
+    offset: 470
   })
   
 };
