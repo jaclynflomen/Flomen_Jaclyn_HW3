@@ -2,7 +2,7 @@
     const country = document.querySelectorAll('.data-ref');
     
         function getData(){
-    
+            
             let targetURL = `includes/connect.php?region_name=${this.id}`; //whenever we click on a thumbnail, pass its id to the php query
     
             fetch (targetURL) // go get the data and bring it back! good doggy
@@ -19,7 +19,6 @@
     
         function showCountryData(data) {
             //debugger;
-            //parse the DB info and put it where it needs to go
             const{ primary_ed, secondary_ed, YA_literacy, unemployment } = data; //destructuring assignment => MDN JS destructuring
     
             //grab the elements we need, and populate them with data
@@ -31,6 +30,6 @@
     
         country.forEach(country => country.addEventListener("click", getData));
     
-        getData(); //trigger the getData function
-    })();
-    
+        getData(data); //trigger the getData function
+   
+})();
