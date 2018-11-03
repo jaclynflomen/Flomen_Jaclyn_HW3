@@ -20,7 +20,7 @@
         function showCountryData(data) {
             //debugger;
             //parse the DB info and put it where it needs to go
-            const{ primary_ed, secondary_ed, YA_literacy, unemployment } = data; //destructuring assignment => MDN JS destructuring
+            const { primary_ed, secondary_ed, YA_literacy, unemployment } = data; //destructuring assignment => MDN JS destructuring
     
             //grab the elements we need, and populate them with data
             document.querySelector('.primary_ed').textContent = primary_ed
