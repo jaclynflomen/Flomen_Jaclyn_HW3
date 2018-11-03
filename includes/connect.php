@@ -26,21 +26,21 @@ if (!$conn) {
 
 //get one item from database
 if (isset($_GET["region_name"])) {
-    $car = $_GET["region_name"];
+    $country = $_GET["region_name"];
 
-     $myQuery = "SELECT * FROM tbl_education WHERE region_name='$car'";
+     $myQuery = "SELECT * FROM tbl_education WHERE region_name='$country'";
 
     $result = mysqli_query($conn, $myQuery);
-    $rows = array ();
+    $rows = array();
 
     //fill the array with the result set and send it to the browser
     while($row = mysqli_fetch_assoc($result)) {
          $rows[] = $row;
  }
- }
+ 
 
 //encode the result and send it back
 echo json_encode($rows);
-
+}
 
 ?>

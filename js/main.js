@@ -1,5 +1,5 @@
 (() => {
-    const car = document.querySelectorAll('.data-ref');
+    const country = document.querySelectorAll('.data-ref');
     
         function getData(){
     
@@ -10,14 +10,14 @@
             .then(data => {
                 console.log(data);
                 //run a function to parse our data
-                showCarData(data[0]);
+                showCountryData(data[0]);
             }) //lets see what we got
             .catch(function(error) {
                 console.log(error); //if anything broke, log it to the console
             });
         }
     
-        function showCarData(data) {
+        function showCountryData(data) {
             //debugger;
             //parse the DB info and put it where it needs to go
             const{ primary_ed, secondary_ed, YA_literacy, unemployment } = data; //destructuring assignment => MDN JS destructuring
@@ -29,7 +29,7 @@
             document.querySelector('.unemployment').textContent = unemployment
         }
     
-        car.forEach(car => car.addEventListener("click", getData));
+        country.forEach(country => country.addEventListener("click", getData));
     
         getData(); //trigger the getData function
     })();
