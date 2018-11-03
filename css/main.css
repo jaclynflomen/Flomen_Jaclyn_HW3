@@ -31,13 +31,18 @@ body {
   right: 10%;
   top: 17%; }
 
-.svg-countries object {
+#firstRow object {
   width: 20%;
   padding-right: 20px; }
 
-.svg-countries {
+#secondRow object {
+  width: 20%;
+  padding-right: 20px; }
+
+.svgcountries {
   display: inline;
-  top: 100px; }
+  top: 100px;
+  padding-right: 20px; }
 
 #firstRow {
   margin-bottom: 20px;
