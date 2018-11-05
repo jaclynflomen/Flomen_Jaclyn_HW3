@@ -34,27 +34,22 @@ body {
   right: 10%;
   top: 17%; }
 
-#firstRow .country object {
-  width: 20%;
-  padding-right: 20px; }
-
 .country {
-  display: inline;
+  width: 20%;
   top: 100px;
-  padding-right: 20px;
   padding-right: 20px; }
 
 #firstRow {
   margin-bottom: 20px;
   margin-left: 7%;
   visibility: hidden;
-  width: 93%; }
+  display: inline; }
 
 #secondRow {
   margin-left: 7%;
   margin-bottom: 10px;
   visibility: hidden;
-  width: 93%; }
+  width: 20%; }
 
 #nav {
   width: 70%;
