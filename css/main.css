@@ -4,8 +4,6 @@
 .visible {
   visibility: visible !important; }
 
-object { pointer-events: none; }
-
 body {
   color: white;
   background-color: #2B2B2B;
