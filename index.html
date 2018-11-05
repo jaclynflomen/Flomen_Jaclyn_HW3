@@ -7,7 +7,6 @@
   <title>Education Around The World</title>
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/animate.css">
-  <script src="js/main.js"></script>
   <script src="js/noframework.waypoints.min.js"></script>
   <script src="js/jf_waypoint.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
@@ -27,7 +26,9 @@
 		</div>
 
 	<div id="firstRow">
-		<object data="images/america.svg" type="image/svg+xml" id="america" class="svgcountries data-ref" data-offset="0"></object>	
+		<div id="america" class="country">
+			<object data="images/america.svg" type="image/svg+xml" id="america" class="svgcountries data-ref" data-offset="0"></object>	
+		</div>
 		<object data="images/south_america.svg" type="image/svg+xml" id="south_america" class="svgcountries data-ref" data-offset="1"></object>	
 		<object data="images/middle_east.svg" type="image/svg+xml" id="middle_east" class="svgcountries data-ref" data-offset="2"></object>	
 		<object data="images/south_asia.svg" type="image/svg+xml" id="south_asia" class="svgcountries data-ref" data-offset="3"></object>	
@@ -55,5 +56,6 @@
 
 <object data="images/eraser_chalk.svg" type="image/svg+xml" id="eraser"></object>
 
+<script src="js/main.js"></script>
 </body>
 </html>
