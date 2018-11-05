@@ -1,8 +1,8 @@
 (() => {
     const testcountry = document.querySelectorAll('.country');
     
-    function getData(e){
-        e.stopPropagation(); // kill this event here
+     function getData(e){
+         e.stopPropagation(); // kill this event here
 
         debugger;
         let targetURL = `includes/connect.php?region_name=${this.id}`; //whenever we click on a thumbnail, pass its id to the php query

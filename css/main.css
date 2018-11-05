@@ -4,6 +4,9 @@
 .visible {
   visibility: visible !important; }
 
+object {
+  pointer-events: none; }
+
 body {
   color: white;
   background-color: #2B2B2B;
@@ -31,17 +34,15 @@ body {
   right: 10%;
   top: 17%; }
 
-#firstRow object {
+#firstRow .country object {
   width: 20%;
   padding-right: 20px; }
 
-#secondRow object {
-  width: 20%;
-  padding-right: 20px; }
-
-.svgcountries {
+.country {
   display: inline;
   top: 100px;
+  padding-right: 20px;
+  width: 20%;
   padding-right: 20px; }
 
 #firstRow {
@@ -63,7 +64,7 @@ body {
 
 #stats p {
   display: inline;
-  font-size: 250%;
+  font-size: 200%;
   align-content: center;
   padding-right: 15%; }
 
