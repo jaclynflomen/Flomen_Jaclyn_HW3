@@ -34,14 +34,17 @@ body {
   right: 10%;
   top: 17%; }
 
-#firstRow .country object {
+#firstRow object {
   width: 20%;
   padding-right: 20px; }
 
-.country {
+#secondRow object {
+  width: 20%;
+  padding-right: 20px; }
+
+.svgcountries {
   display: inline;
   top: 100px;
-  padding-right: 20px;
   padding-right: 20px; }
 
 #firstRow {
