@@ -22,9 +22,9 @@ if (isset($_GET["region_name"])) {
 
     //fill the array with the result set and send it to the browser
     while($row = mysqli_fetch_assoc($result)) {
-        echo json_encode($rows);
         $rows[] = $row;
- }
-}
+    }
 
+    echo json_encode($rows);
+}
 ?>
