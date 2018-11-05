@@ -2,7 +2,7 @@
 $host = "localhost";
 $user = "root";
 $password = "root";
-$db = "db_infographic";
+$db = "jaclyn";
 
 $conn = mysqli_connect($host, $user, $password, $db);
 
@@ -22,9 +22,9 @@ if (isset($_GET["region_name"])) {
 
     //fill the array with the result set and send it to the browser
     while($row = mysqli_fetch_assoc($result)) {
-        echo json_encode($rows);
         $rows[] = $row;
- }
-}
+    }
 
+    echo json_encode($rows);
+}
 ?>

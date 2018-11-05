@@ -7,7 +7,7 @@
   <title>Education Around The World</title>
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/animate.css">
-  <script src="js/main.js"></script>
+
   <script src="js/noframework.waypoints.min.js"></script>
   <script src="js/jf_waypoint.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
@@ -20,40 +20,42 @@
 	<object data="images/paper.svg" type="image/svg+xml" id="paper"></object>
 
 	<div id="instructions">
-			<p>Education around the world is incredibly uneven from
-					first world countries to third world countries. Click on a
-					region below to see primary school rates, secondary school 
-				   rates, youth literacy rates, and unemployment rates.</p>
-		</div>
+		<p>
+			Education around the world is incredibly uneven from first world countries to third world countries. Click on a region below to see primary school rates, secondary school rates, youth literacy rates, and unemployment rates.
+		</p>
+	</div>
 
 	<div id="firstRow">
+		<div id="america" class="country">
+			<object data="images/america.svg" type="image/svg+xml" id="america" class="svgcountries data-ref" data-offset="0"></object>	
+		</div>
 		<object data="images/america.svg" type="image/svg+xml" id="america" class="svgcountries data-ref" data-offset="0"></object>	
 		<object data="images/south_america.svg" type="image/svg+xml" id="south_america" class="svgcountries data-ref" data-offset="1"></object>	
 		<object data="images/middle_east.svg" type="image/svg+xml" id="middle_east" class="svgcountries data-ref" data-offset="2"></object>	
 		<object data="images/south_asia.svg" type="image/svg+xml" id="south_asia" class="svgcountries data-ref" data-offset="3"></object>	
-</div>
-<div id="secondRow">
-			<object data="images/africa.svg" type="image/svg+xml" id="africa" class="svgcountries data-ref" data-offset="4"></object>	
-			<object data="images/europe.svg" type="image/svg+xml" id="europe" class="svgcountries data-ref" data-offset="5"></object>	
-			<object data="images/east_asia.svg" type="image/svg+xml" id="east_asia" class="svgcountries data-ref" data-offset="6"></object>	
-			<object data="images/australia.svg" type="image/svg+xml" id="australia" class="svgcountries data-ref" data-offset="7"></object>	
-</div>
+	</div>
+
+	<div id="secondRow">
+		<object data="images/africa.svg" type="image/svg+xml" id="africa" class="svgcountries data-ref" data-offset="4"></object>	
+		<object data="images/europe.svg" type="image/svg+xml" id="europe" class="svgcountries data-ref" data-offset="5"></object>	
+		<object data="images/east_asia.svg" type="image/svg+xml" id="east_asia" class="svgcountries data-ref" data-offset="6"></object>	
+		<object data="images/australia.svg" type="image/svg+xml" id="australia" class="svgcountries data-ref" data-offset="7"></object>	
+	</div>
 
 
-<section>
-	<object data="images/svg_nav.svg" type="image/svg+xml" id="nav"></object>
-	<p id="unicef">Information gathered from a 2013 UNICEF study.</p>
-</section>
+	<section>
+		<object data="images/svg_nav.svg" type="image/svg+xml" id="nav"></object>
+		<p id="unicef">Information gathered from a 2013 UNICEF study.</p>
+	</section>
 
-<div id="stats">
-<p class="primary_ed">---</p>
-<p class="secondary_ed">---</p>
-<p class="YA_literacy">---</p>
-<p class="unemployment">---</p>
-</div>
+	<div id="stats">
+		<p class="primary_ed">---</p>
+		<p class="secondary_ed">---</p>
+		<p class="YA_literacy">---</p>
+		<p class="unemployment">---</p>
+	</div>
 
-
-<object data="images/eraser_chalk.svg" type="image/svg+xml" id="eraser"></object>
-
+	<object data="images/eraser_chalk.svg" type="image/svg+xml" id="eraser"></object>
+	<script src="js/main.js"></script>
 </body>
 </html>
