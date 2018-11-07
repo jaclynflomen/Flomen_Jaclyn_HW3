@@ -2,6 +2,12 @@ $background-image: "images/svg_bg.svg";
 $fonts: "Arial";
 $font-color: white;
 
+.header {
+    padding-left: 10px;
+    color: $main-font-color;
+  }
+  
+
 .text
 {
     width: 70%;
@@ -11,57 +17,54 @@ $font-color: white;
 {
     float: left;
     width: 50%;
-    height: 100px;
-    margin-bottom: 200px;
+    height: 120%;
+    margin-bottom: 10%;
 }
 
 #SAMERICA
 {
     float: left;
     width: 50%;
-    height: 100px;
-    margin-bottom: 200px;
+    height: 120%;
+    margin-bottom: 10%;
 }
 
 #MIDDLE_EAST
 {
     float: left;
     width: 50%;
-    height: 100px;
-    margin-bottom: 200px;
+    height: 120%;
+    margin-bottom: 10%;
 }
 #SASIA
 {
     float: left;
     width: 50%;
-    height: 100px;
-    margin-bottom: 200px;
+    height: 120%;
+    margin-bottom: 10%;
 }
 #AFRICA
 {
     float: left;
     width: 50%;
-    height: 100px;
-    margin-bottom: 200px;
+    height: 120%;
 }
 #EUROPE
 {
     float: left;
     width: 50%;
-    height: 100px;
-    margin-bottom: 200px;
+    height: 120%;
+    margin-bottom: 30%;
 }
 #EASIA
 {
     float: left;
     width: 50%;
-    height: 100px;
-    margin-bottom: 200px;
+    height: 120%;
 }
 #AUSTRALIA
 {
     float: left;
     width: 50%;
-    height: 100px;
-    margin-bottom: 200px;
+    height: 120%;
 }

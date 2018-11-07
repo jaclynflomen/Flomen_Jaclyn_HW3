@@ -1,53 +1,58 @@
+.header {
+  padding-left: 10px;
+  color: blue; }
+
 .text {
   width: 70%; }
 
 #AMERICA {
   float: left;
   width: 50%;
-  height: 100px;
-  margin-bottom: 200px; }
+  height: 120%;
+  margin-bottom: 10%; }
 
 #SAMERICA {
   float: left;
   width: 50%;
-  height: 100px;
-  margin-bottom: 200px; }
+  height: 120%;
+  margin-bottom: 10%; }
 
 #MIDDLE_EAST {
   float: left;
   width: 50%;
-  height: 100px;
-  margin-bottom: 200px; }
+  height: 120%;
+  margin-bottom: 10%; }
 
 #SASIA {
   float: left;
   width: 50%;
-  height: 100px;
-  margin-bottom: 200px; }
+  height: 120%;
+  margin-bottom: 10%; }
 
 #AFRICA {
   float: left;
   width: 50%;
-  height: 100px;
-  margin-bottom: 200px; }
+  height: 120%; }
 
 #EUROPE {
   float: left;
   width: 50%;
-  height: 100px;
-  margin-bottom: 200px; }
+  height: 120%;
+  margin-bottom: 30%; }
 
 #EASIA {
   float: left;
   width: 50%;
-  height: 100px;
-  margin-bottom: 200px; }
+  height: 120%; }
 
 #AUSTRALIA {
   float: left;
   width: 50%;
-  height: 100px;
-  margin-bottom: 200px; }
+  height: 120%; }
+
+.header {
+  padding-left: 10px;
+  color: blue; }
 
 .hide {
   visibility: hidden; }
@@ -117,7 +122,7 @@ body {
 
 #stats p {
   display: inline;
-  font-size: 200%;
+  font-size: 160%;
   align-content: center;
   padding-right: 15%; }
 

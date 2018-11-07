@@ -1,5 +1,6 @@
 @import 'modules/_vars';
 @import 'modules/_body';
+@import 'modules/mediaqueries';
 
 .hide {
    visibility: hidden;
@@ -91,7 +92,7 @@
   #stats p
   {
     display: inline;
-    font-size: 200%;
+    font-size: 160%;
     align-content: center;
     padding-right: 15%;
   }
