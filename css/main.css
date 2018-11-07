@@ -1,29 +1,53 @@
 .text {
-  width: 50%; }
+  width: 70%; }
 
 #AMERICA {
-  float: left; }
+  float: left;
+  width: 50%;
+  height: 100px;
+  margin-bottom: 200px; }
 
 #SAMERICA {
-  float: left; }
+  float: left;
+  width: 50%;
+  height: 100px;
+  margin-bottom: 200px; }
 
 #MIDDLE_EAST {
-  float: left; }
+  float: left;
+  width: 50%;
+  height: 100px;
+  margin-bottom: 200px; }
 
 #SASIA {
-  float: left; }
+  float: left;
+  width: 50%;
+  height: 100px;
+  margin-bottom: 200px; }
 
 #AFRICA {
-  float: left; }
+  float: left;
+  width: 50%;
+  height: 100px;
+  margin-bottom: 200px; }
 
 #EUROPE {
-  float: left; }
+  float: left;
+  width: 50%;
+  height: 100px;
+  margin-bottom: 200px; }
 
 #EASIA {
-  float: left; }
+  float: left;
+  width: 50%;
+  height: 100px;
+  margin-bottom: 200px; }
 
 #AUSTRALIA {
-  float: left; }
+  float: left;
+  width: 50%;
+  height: 100px;
+  margin-bottom: 200px; }
 
 .hide {
   visibility: hidden; }
@@ -62,11 +86,11 @@ body {
   top: 17%; }
 
 #firstRow object {
-  width: 20%;
+  width: 50%;
   padding-right: 20px; }
 
 #secondRow object {
-  width: 20%;
+  width: 50%;
   padding-right: 20px; }
 
 .svgcountries {
