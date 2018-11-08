@@ -30,5 +30,12 @@
         country.forEach(country => country.addEventListener("click", getData));
     
         //getData(); //trigger the getData function
+
+
+var clean = document.querySelector('#clean');
+        function refreshPage(){
+            window.location.reload();
+        } 
+        clean.addEventListener("click", refreshPage);
     })();
     
