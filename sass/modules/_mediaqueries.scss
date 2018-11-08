@@ -2,7 +2,20 @@
   
   #stats p
   {
-    font-size: 20px;
+    font-size: 15px;
+  }
+  #stats
+  {
+    margin-left: 10px;
+  }
+  #unicef {
+    font-size: 50%;
+  }
+  #title {
+    width:40%;
+  }
+  #nav {
+    margin-top: 15%;
   }
 }
 
@@ -12,13 +25,80 @@
   {
     font-size: 23px;
   }
+  #stats
+  {
+    margin-left: 18%;
+  }
+  #unicef {
+    font-size: 90%;
+  }
+  #title {
+    width:40%;
+  }
+  #nav {
+    margin-top: 10%;
+  }
 }
 
 @media screen and (min-width: 600px) {
   
   #stats p
   {
-    font-size: 40px;
+    font-size: 30px;
+  }
+
+  #stats
+  {
+    margin-left: 15%;
+  }
+  #unicef {
+    font-size: 100%;
+  }
+  #title {
+    width:40%;
+  }
+  #nav {
+    margin-top: 10%;
   }
 }
 
+
+@media screen and (min-width: 750px) {
+
+  #stats
+  {
+    margin-left: 22%;
+  }
+
+  #stats p
+  {
+    font-size: 40px;
+  }
+
+  #unicef {
+    font-size: 105%;
+  }
+
+  #firstRow {
+    width: 43%;
+    float: left;
+    margin-bottom: 0px;
+  }
+
+  #secondRow {
+    width: 43%;
+    float: right;
+    margin-bottom: 0px;
+  }
+
+  #nav {
+    margin-top: 0%;
+  }
+
+  #title {
+    width:37%;
+  }
+  #nav {
+    margin-top: 3%;
+  }
+}

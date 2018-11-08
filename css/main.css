@@ -47,13 +47,14 @@
 #AFRICA {
   float: left;
   width: 40%;
-  margin-left: 5%; }
+  margin-left: 5%;
+  margin-bottom: 10%; }
 
 #EUROPE {
   float: left;
   width: 50%;
   margin-left: 5%;
-  margin-bottom: 30%; }
+  margin-bottom: 15%; }
 
 #EUROPE object {
   margin-top: 15%; }
@@ -61,14 +62,16 @@
 #EASIA {
   float: left;
   width: 50%;
-  margin-left: 5%; }
+  margin-left: 5%;
+  margin-top: 5%; }
 
 #EASIA .text {
   width: 60%; }
 
 #AUSTRALIA {
   float: left;
-  width: 45%; }
+  width: 45%;
+  margin-top: 5%; }
 
 #AUSTRALIA .text {
   width: 26%; }
@@ -87,13 +90,77 @@
 
 @media screen and (max-width: 400px) {
   #stats p {
-    font-size: 20px; } }
+    font-size: 15px; }
+
+  #stats {
+    margin-left: 10px; }
+
+  #unicef {
+    font-size: 50%; }
+
+  #title {
+    width: 40%; }
+
+  #nav {
+    margin-top: 15%; } }
 @media screen and (max-width: 600px) {
   #stats p {
-    font-size: 23px; } }
+    font-size: 23px; }
+
+  #stats {
+    margin-left: 18%; }
+
+  #unicef {
+    font-size: 90%; }
+
+  #title {
+    width: 40%; }
+
+  #nav {
+    margin-top: 10%; } }
 @media screen and (min-width: 600px) {
   #stats p {
-    font-size: 40px; } }
+    font-size: 30px; }
+
+  #stats {
+    margin-left: 15%; }
+
+  #unicef {
+    font-size: 100%; }
+
+  #title {
+    width: 40%; }
+
+  #nav {
+    margin-top: 10%; } }
+@media screen and (min-width: 750px) {
+  #stats {
+    margin-left: 22%; }
+
+  #stats p {
+    font-size: 40px; }
+
+  #unicef {
+    font-size: 105%; }
+
+  #firstRow {
+    width: 43%;
+    float: left;
+    margin-bottom: 0px; }
+
+  #secondRow {
+    width: 43%;
+    float: right;
+    margin-bottom: 0px; }
+
+  #nav {
+    margin-top: 0%; }
+
+  #title {
+    width: 37%; }
+
+  #nav {
+    margin-top: 3%; } }
 .hide {
   visibility: hidden; }
 
@@ -113,14 +180,13 @@ body {
 #title {
   margin-top: 60px;
   margin-left: 30%;
-  margin-bottom: 50px;
-  width: 40%; }
+  margin-bottom: 50px; }
 
 #book {
   width: 15%;
   float: left;
   position: absolute;
-  left: 13%;
+  left: 12%;
   top: 20%; }
 
 #paper {
@@ -138,11 +204,6 @@ body {
   padding-right: 20px;
   width: 60%; }
 
-.svgcountries {
-  display: inline;
-  top: 100px;
-  padding-right: 20px; }
-
 #firstRow {
   margin-bottom: 20px;
   visibility: hidden;
@@ -155,8 +216,7 @@ body {
 
 #nav {
   width: 70%;
-  margin-left: 16%;
-  margin-top: 15%; }
+  margin-left: 16%; }
 
 #stats p {
   display: inline;
@@ -164,9 +224,9 @@ body {
   padding-right: 7%; }
 
 #stats {
-  margin-left: 30%;
   margin-bottom: 10%;
-  margin-top: 10%; }
+  margin-top: 10%;
+  width: 100%; }
 
 #instructions {
   text-align: center;
@@ -181,7 +241,6 @@ body {
   margin-left: 50%; }
 
 #unicef {
-  font-size: 80%;
   text-align: center;
   visibility: hidden; }
 
