@@ -1,6 +1,6 @@
 @import 'modules/_vars';
 @import 'modules/_body';
-@import 'modules/mediaqueries';
+@import 'modules/_mediaqueries';
 
 .hide {
    visibility: hidden;
@@ -24,7 +24,7 @@
     
     #title
   {
-    margin-top: 40px;
+    margin-top: 60px;
     margin-left: 30%;
     margin-bottom: 50px;
     width:40%;
@@ -34,7 +34,7 @@
     width: 15%;
     float: left;
     position: absolute;
-    left: 8%;
+    left: 13%;
     top: 20%;
   }
 
@@ -48,16 +48,15 @@
 
  #firstRow object
   {
-    width: 50%;
     padding-right: 20px;
+    width: 60%;
   }
 
   #secondRow object
   {
-    width: 50%;
     padding-right: 20px;
+    width: 60%;
   }
-
 
   .svgcountries
   {
@@ -69,17 +68,15 @@
   #firstRow
   {
     margin-bottom: 20px;
-    margin-left: 7%;
     visibility: hidden;
-    width: 93%;
+    margin-left: 6%;
   }
 
   #secondRow
   {
-    margin-left: 7%;
     margin-bottom: 10px;
     visibility: hidden;
-    width: 93%;
+    margin-left: 6%;
   }
 
   #nav
@@ -92,14 +89,13 @@
   #stats p
   {
     display: inline;
-    font-size: 160%;
     align-content: center;
-    padding-right: 15%;
+    padding-right: 7%;
   }
 
   #stats
   {
-    margin-left: 20%;
+    margin-left: 30%;
     margin-bottom: 10%;
     margin-top: 10%;
   }

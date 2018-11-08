@@ -16,55 +16,113 @@ $font-color: white;
 #AMERICA
 {
     float: left;
-    width: 50%;
-    height: 120%;
+    width: 40%;
     margin-bottom: 10%;
+    margin-left: 5%;
+}
+
+#AMERICA .text
+{
+    font-size: 90%;
 }
 
 #SAMERICA
 {
     float: left;
-    width: 50%;
-    height: 120%;
+    width: 40%;
     margin-bottom: 10%;
+    margin-left: 5%;
+}
+
+#SAMERICA object {
+    margin-left: 20%;
+}
+
+#SAMERICA .text
+{
+    width: 100%;
 }
 
 #MIDDLE_EAST
 {
     float: left;
     width: 50%;
-    height: 120%;
+    margin-left: 5%;
     margin-bottom: 10%;
 }
+
+#MIDDLE_EAST .text {
+    width: 70%;
+}
+
 #SASIA
 {
     float: left;
-    width: 50%;
-    height: 120%;
+    width: 40%;
+    margin-left: 5%;
     margin-bottom: 10%;
 }
+
+#SASIA .text
+{
+    width: 43%;
+}
+
 #AFRICA
 {
     float: left;
-    width: 50%;
-    height: 120%;
+    width: 40%;
+    margin-left: 5%;
 }
 #EUROPE
 {
     float: left;
     width: 50%;
-    height: 120%;
+    margin-left: 5%;
     margin-bottom: 30%;
 }
+
+#EUROPE object {
+    margin-top: 15%;
+}
+
 #EASIA
 {
     float: left;
     width: 50%;
-    height: 120%;
+    margin-left: 5%;
 }
+
+#EASIA .text {
+    width: 60%;
+}
+
 #AUSTRALIA
 {
     float: left;
-    width: 50%;
-    height: 120%;
+    width: 45%;
+}
+
+#AUSTRALIA .text
+{
+    width: 26%;
+}
+
+.primaryEd
+{
+    color: #f9ed32;
+}
+
+.secondary_ed
+{
+    color: #ff6e6e;
+}
+
+.YA_literacy
+{
+    color: #27aae1;
+}
+
+.unemployment {
+    color: #50c956;
 }

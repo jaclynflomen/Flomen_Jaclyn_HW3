@@ -1,4 +1,24 @@
-.header {
-  padding-left: 10px;
-  color: $main-font-color;
+@media screen and (max-width: 400px) {
+  
+  #stats p
+  {
+    font-size: 20px;
+  }
 }
+
+@media screen and (max-width: 600px) {
+  
+  #stats p
+  {
+    font-size: 23px;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  
+  #stats p
+  {
+    font-size: 40px;
+  }
+}
+

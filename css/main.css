@@ -7,53 +7,93 @@
 
 #AMERICA {
   float: left;
-  width: 50%;
-  height: 120%;
-  margin-bottom: 10%; }
+  width: 40%;
+  margin-bottom: 10%;
+  margin-left: 5%; }
+
+#AMERICA .text {
+  font-size: 90%; }
 
 #SAMERICA {
   float: left;
-  width: 50%;
-  height: 120%;
-  margin-bottom: 10%; }
+  width: 40%;
+  margin-bottom: 10%;
+  margin-left: 5%; }
+
+#SAMERICA object {
+  margin-left: 20%; }
+
+#SAMERICA .text {
+  width: 100%; }
 
 #MIDDLE_EAST {
   float: left;
   width: 50%;
-  height: 120%;
+  margin-left: 5%;
   margin-bottom: 10%; }
+
+#MIDDLE_EAST .text {
+  width: 70%; }
 
 #SASIA {
   float: left;
-  width: 50%;
-  height: 120%;
+  width: 40%;
+  margin-left: 5%;
   margin-bottom: 10%; }
+
+#SASIA .text {
+  width: 43%; }
 
 #AFRICA {
   float: left;
-  width: 50%;
-  height: 120%; }
+  width: 40%;
+  margin-left: 5%; }
 
 #EUROPE {
   float: left;
   width: 50%;
-  height: 120%;
+  margin-left: 5%;
   margin-bottom: 30%; }
+
+#EUROPE object {
+  margin-top: 15%; }
 
 #EASIA {
   float: left;
   width: 50%;
-  height: 120%; }
+  margin-left: 5%; }
+
+#EASIA .text {
+  width: 60%; }
 
 #AUSTRALIA {
   float: left;
-  width: 50%;
-  height: 120%; }
+  width: 45%; }
 
-.header {
-  padding-left: 10px;
-  color: blue; }
+#AUSTRALIA .text {
+  width: 26%; }
 
+.primaryEd {
+  color: #f9ed32; }
+
+.secondary_ed {
+  color: #ff6e6e; }
+
+.YA_literacy {
+  color: #27aae1; }
+
+.unemployment {
+  color: #50c956; }
+
+@media screen and (max-width: 400px) {
+  #stats p {
+    font-size: 20px; } }
+@media screen and (max-width: 600px) {
+  #stats p {
+    font-size: 23px; } }
+@media screen and (min-width: 600px) {
+  #stats p {
+    font-size: 40px; } }
 .hide {
   visibility: hidden; }
 
@@ -71,7 +111,7 @@ body {
   box-shadow: 5px 5px 0px 9px #68471B inset; }
 
 #title {
-  margin-top: 40px;
+  margin-top: 60px;
   margin-left: 30%;
   margin-bottom: 50px;
   width: 40%; }
@@ -80,7 +120,7 @@ body {
   width: 15%;
   float: left;
   position: absolute;
-  left: 8%;
+  left: 13%;
   top: 20%; }
 
 #paper {
@@ -91,12 +131,12 @@ body {
   top: 17%; }
 
 #firstRow object {
-  width: 50%;
-  padding-right: 20px; }
+  padding-right: 20px;
+  width: 60%; }
 
 #secondRow object {
-  width: 50%;
-  padding-right: 20px; }
+  padding-right: 20px;
+  width: 60%; }
 
 .svgcountries {
   display: inline;
@@ -105,15 +145,13 @@ body {
 
 #firstRow {
   margin-bottom: 20px;
-  margin-left: 7%;
   visibility: hidden;
-  width: 93%; }
+  margin-left: 6%; }
 
 #secondRow {
-  margin-left: 7%;
   margin-bottom: 10px;
   visibility: hidden;
-  width: 93%; }
+  margin-left: 6%; }
 
 #nav {
   width: 70%;
@@ -122,12 +160,11 @@ body {
 
 #stats p {
   display: inline;
-  font-size: 160%;
   align-content: center;
-  padding-right: 15%; }
+  padding-right: 7%; }
 
 #stats {
-  margin-left: 20%;
+  margin-left: 30%;
   margin-bottom: 10%;
   margin-top: 10%; }
 
